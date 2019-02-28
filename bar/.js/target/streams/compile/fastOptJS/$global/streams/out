@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/.js/target/scala-2.11/bar-fastopt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 320912 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 659934 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 1008972 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 471652 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 809 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 816915 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 1308958 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 66126 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 10631 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 79632 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 36 -- invalidated: 43[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 101[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 363881 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 6 -- trees read: 257[0m

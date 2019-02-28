@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/native/target/scala-2.11/bar_native0.3_2.11-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Foo$.nir[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/native/target/scala-2.11/classes/Foo$.nir[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/SharedMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/native/target/scala-2.11/classes/com/SharedMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Foo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/native/target/scala-2.11/classes/Foo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/SharedMain$.nir[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/native/target/scala-2.11/classes/com/SharedMain$.nir[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Foo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/native/target/scala-2.11/classes/Foo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/SharedMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/native/target/scala-2.11/classes/com/SharedMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/native/target/scala-2.11/classes/com[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

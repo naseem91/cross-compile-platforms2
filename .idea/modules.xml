@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bar-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/bar-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barJS.iml" filepath="$PROJECT_DIR$/.idea/modules/barJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/barJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/barJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barJVM-build.iml" filepath="$PROJECT_DIR$/.idea/modules/barJVM-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barNative.iml" filepath="$PROJECT_DIR$/.idea/modules/barNative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barNative-build.iml" filepath="$PROJECT_DIR$/.idea/modules/barNative-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cross-platforms-scalanative-jvm.iml" filepath="$PROJECT_DIR$/.idea/modules/cross-platforms-scalanative-jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cross-platforms-scalanative-jvm-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cross-platforms-scalanative-jvm-build.iml" />
+    </modules>
+  </component>
+</project>
