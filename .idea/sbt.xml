@@ -8,12 +8,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/bar" />
             <option value="$PROJECT_DIR$/bar/js" />
             <option value="$PROJECT_DIR$/bar/js/project" />
             <option value="$PROJECT_DIR$/bar/jvm" />
             <option value="$PROJECT_DIR$/bar/jvm/project" />
             <option value="$PROJECT_DIR$/bar/native" />
             <option value="$PROJECT_DIR$/bar/native/project" />
+            <option value="$PROJECT_DIR$/bar/project" />
             <option value="$PROJECT_DIR$/bar/shared" />
             <option value="$PROJECT_DIR$/project" />
           </set>

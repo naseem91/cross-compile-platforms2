@@ -6,6 +6,7 @@
 [debug] == resolving dependencies for bar#bar$sources;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.23 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.23 {compile=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
+[debug] no default cache defined: set to /root/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.23
 [debug] 	found org.scala-js#scalajs-library_2.11;0.6.23 in sbt-chain
 [debug] 	[0.6.23] org.scala-js#scalajs-library_2.11;0.6.23
@@ -356,6 +357,40 @@
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.12 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.12
+[debug] 	found org.scala-lang#scala-reflect;2.11.12 in sbt-chain
+[debug] 	[2.11.12] org.scala-lang#scala-reflect;2.11.12
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.6
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.6 in sbt-chain
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.11;3.0.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.5
+[debug] 	found org.scalactic#scalactic_2.11;3.0.5 in sbt-chain
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.23 [test->default]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-test-interface_2.11;0.6.23 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-test-interface_2.11;0.6.23
@@ -396,6 +431,21 @@
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test->compile(*)]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;3.0.5 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.5
+[debug] 	found org.scalatest#scalatest_2.11;3.0.5 in sbt-chain
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test->runtime(*)]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test->compile]
@@ -871,6 +921,30 @@
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.23 [test->default]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.23 [test->runtime]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.23 [test->compile]
@@ -907,6 +981,18 @@
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test->compile(*)]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->default]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test->runtime(*)]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test->compile]
@@ -945,6 +1031,30 @@
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test-internal->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test-internal->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#jquery-facade_sjs0.6_2.11;1.2 [test-internal->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test-internal->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test-internal->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test-internal->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test-internal->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [test-internal->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test-internal->master(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test-internal->compile(*)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.11;3.0.5 [test-internal->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.23 [test-internal->default]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.23 [test-internal->runtime]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.23 [test-internal->compile]
@@ -981,6 +1091,18 @@
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test-internal->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test-internal->compile(*)]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3 [test-internal->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->default]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->default(compile)]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->master]
+[debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.11;3.0.5 [test-internal->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test-internal->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test-internal->runtime(*)]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.querki#querki-jsext_sjs0.6_2.11;0.8 [test-internal->compile]
@@ -1003,10 +1125,6 @@
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [plugin->compile(*)]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [plugin->master]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [plugin->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.12 {plugin=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.12
-[debug] 	found org.scala-lang#scala-reflect;2.11.12 in sbt-chain
-[debug] 	[2.11.12] org.scala-lang#scala-reflect;2.11.12
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [plugin->runtime(*)]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [plugin->compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.12 [plugin->master(compile)]
@@ -1209,25 +1327,28 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.12!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.12!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.5!scalactic_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.5!scalatest_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.12!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.querki#jquery-facade_sjs0.6_2.11;1.2!jquery-facade_sjs0.6_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.querki#querki-jsext_sjs0.6_2.11;0.8!querki-jsext_sjs0.6_2.11.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.12;0.6.23!scalajs-compiler_2.11.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.23!scalajs-library_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.3!scalajs-dom_sjs0.6_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.11;0.6.23!scalajs-test-interface_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.12;0.6.23!scalajs-compiler_2.11.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src)
-[debug] :: resolution report :: resolve 3289ms :: artifacts dl 250ms
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
+[debug] 	[NOT REQUIRED] org.querki#querki-jsext_sjs0.6_2.11;0.8!querki-jsext_sjs0.6_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.querki#jquery-facade_sjs0.6_2.11;1.2!jquery-facade_sjs0.6_2.11.jar(src)
+[debug] :: resolution report :: resolve 405ms :: artifacts dl 60ms
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT compile produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-compile.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT runtime produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-runtime.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT test produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-test.xml
@@ -1240,4 +1361,4 @@
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT pom produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-pom.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT scala-tool produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-scala-tool.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT phantom-js-jetty produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-phantom-js-jetty.xml
-[debug] 	resolve done (3289ms resolve - 250ms download)
+[debug] 	resolve done (405ms resolve - 60ms download)

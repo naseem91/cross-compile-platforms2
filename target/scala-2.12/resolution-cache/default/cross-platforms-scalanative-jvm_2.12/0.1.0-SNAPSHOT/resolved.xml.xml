@@ -4,7 +4,7 @@
 		module="cross-platforms-scalanative-jvm_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190225165113"
+		publication="20190304110220"
 	>
 		<description>
 		Cross-Platforms-ScalaNative-JVM

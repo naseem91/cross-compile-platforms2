@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cross-Platforms-ScalaNative-JVM-coreAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/Cross-Platforms-ScalaNative-JVM-coreAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bar-coreAndroid-build.iml" filepath="$PROJECT_DIR$/.idea/modules/bar-coreAndroid-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bar-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/bar-sources.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/barJS.iml" filepath="$PROJECT_DIR$/.idea/modules/barJS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/barJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/barJS-build.iml" />

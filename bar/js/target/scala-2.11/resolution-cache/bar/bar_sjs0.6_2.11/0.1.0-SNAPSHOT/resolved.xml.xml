@@ -4,7 +4,7 @@
 		module="bar_sjs0.6_2.11"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190227102400"
+		publication="20190305110813"
 	>
 		<description>
 		bar
@@ -38,6 +38,7 @@
 		<dependency org="org.scala-js" name="scalajs-compiler_2.11.12" rev="0.6.23" conf="plugin->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-library_2.11" rev="0.6.23" conf="compile->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-test-interface_2.11" rev="0.6.23" conf="test->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.querki" name="jquery-facade_sjs0.6_2.11" rev="1.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

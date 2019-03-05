@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="incrementalityType" value="SBT" />
-    <profile name="sbt 1" modules="Cross-Platforms-ScalaNative-JVM-barJVM,barJVM~1,cross-platforms-scalanative-jvm,barJVM" />
+    <profile name="sbt 1" modules="Cross-Platforms-ScalaNative-JVM-barJVM,barJVM~1,android,cross-platforms-scalanative-jvm,barJVM" />
     <profile name="sbt 2" modules="Cross-Platforms-ScalaNative-JVM-barJS,barJS~1,barJS">
       <plugins>
         <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.12/jars/scalajs-compiler_2.11.12-0.6.23.jar" />
@@ -12,6 +12,11 @@
       <plugins>
         <plugin path="$USER_HOME$/.ivy2/cache/org.scala-native/nscplugin_2.11.12/jars/nscplugin_2.11.12-0.3.7.jar" />
       </plugins>
+    </profile>
+    <profile name="sbt 4" modules="coreAndroid,Cross-Platforms-ScalaNative-JVM-coreAndroid">
+      <parameters>
+        <parameter value="-target:jvm-1.7" />
+      </parameters>
     </profile>
   </component>
 </project>

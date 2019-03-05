@@ -4,7 +4,7 @@
 		module="bar_native0.3_2.11"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190227102412"
+		publication="20190305110811"
 	>
 		<description>
 		bar
@@ -38,5 +38,6 @@
 		<dependency org="org.scala-native" name="scalalib_native0.3_2.11" rev="0.3.7" conf="compile->default(compile)"/>
 		<dependency org="org.scala-native" name="test-interface_native0.3_2.11" rev="0.3.7" conf="test->default(compile)"/>
 		<dependency org="org.scala-native" name="nscplugin_2.11.12" rev="0.3.7" conf="plugin->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.5" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
