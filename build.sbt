@@ -39,3 +39,4 @@ lazy val coreAndroid = (project in file("./bar"))
     target := baseDirectory.value / ".android" / "target"
   )
 
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"

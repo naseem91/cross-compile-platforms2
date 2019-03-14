@@ -6,7 +6,6 @@
 [debug] == resolving dependencies for bar#bar$sources;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.23 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.23 {compile=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
-[debug] no default cache defined: set to /root/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.23
 [debug] 	found org.scala-js#scalajs-library_2.11;0.6.23 in sbt-chain
 [debug] 	[0.6.23] org.scala-js#scalajs-library_2.11;0.6.23
@@ -1327,8 +1326,8 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.12!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.12!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.12!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.5!scalactic_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.5!scalatest_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
@@ -1340,15 +1339,15 @@
 [debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.12;0.6.23!scalajs-compiler_2.11.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
-[debug] 	[NOT REQUIRED] org.querki#querki-jsext_sjs0.6_2.11;0.8!querki-jsext_sjs0.6_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.querki#jquery-facade_sjs0.6_2.11;1.2!jquery-facade_sjs0.6_2.11.jar(src)
-[debug] :: resolution report :: resolve 405ms :: artifacts dl 60ms
+[debug] 	[NOT REQUIRED] org.querki#querki-jsext_sjs0.6_2.11;0.8!querki-jsext_sjs0.6_2.11.jar(src)
+[debug] :: resolution report :: resolve 850ms :: artifacts dl 56ms
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT compile produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-compile.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT runtime produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-runtime.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT test produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-test.xml
@@ -1361,4 +1360,4 @@
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT pom produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-pom.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT scala-tool produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-scala-tool.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT phantom-js-jetty produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/js/target/scala-2.11/resolution-cache/reports/bar-bar$sources-phantom-js-jetty.xml
-[debug] 	resolve done (405ms resolve - 60ms download)
+[debug] 	resolve done (850ms resolve - 56ms download)

@@ -11,23 +11,23 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.querki:jquery-facade_sjs0.6_2.11:1.2:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang:scala-reflect:2.11.12:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest_2.11:3.0.5:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scalactic:scalactic_2.11:3.0.5:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-xml_2.11:1.0.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.querki:querki-jsext_sjs0.6_2.11:0.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-js:scalajs-dom_sjs0.6_2.11:0.9.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.11:0.6.23:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-interface_2.11:0.6.23:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.11.12:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.11.12:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-native:auxlib_native0.3_2.11:0.3.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-native:javalib_native0.3_2.11:0.3.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-native:nativelib_native0.3_2.11:0.3.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-native:scalalib_native0.3_2.11:0.3.7:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:test-interface-sbt-defs_native0.3_2.11:0.3.7:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:test-interface-serialization_native0.3_2.11:0.3.7:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:test-interface_native0.3_2.11:0.3.7:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scala-sbt:test-interface:1.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:test-interface_native0.3_2.11:0.3.7:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:test-interface-serialization_native0.3_2.11:0.3.7:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:test-interface-sbt-defs_native0.3_2.11:0.3.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:scalalib_native0.3_2.11:0.3.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:nativelib_native0.3_2.11:0.3.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:javalib_native0.3_2.11:0.3.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:auxlib_native0.3_2.11:0.3.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.11.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.11.12:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-interface_2.11:0.6.23:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.11:0.6.23:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-dom_sjs0.6_2.11:0.9.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.querki:querki-jsext_sjs0.6_2.11:0.8:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-xml_2.11:1.0.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalactic:scalactic_2.11:3.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest_2.11:3.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang:scala-reflect:2.11.12:jar" level="project" />
   </component>
 </module>

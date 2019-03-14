@@ -425,16 +425,16 @@
 [debug] == resolving dependencies bar#bar$sources;0.1.0-SNAPSHOT->jline#jline;2.14.3 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.12!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.5!scalatest_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.5!scalactic_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.12!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.12!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.12!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.5!scalactic_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.12!scala-reflect.jar(src)
-[debug] :: resolution report :: resolve 68ms :: artifacts dl 7ms
+[debug] :: resolution report :: resolve 819ms :: artifacts dl 159ms
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT compile produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/jvm/target/scala-2.11/resolution-cache/reports/bar-bar$sources-compile.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT runtime produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/jvm/target/scala-2.11/resolution-cache/reports/bar-bar$sources-runtime.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT test produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/jvm/target/scala-2.11/resolution-cache/reports/bar-bar$sources-test.xml
@@ -446,4 +446,4 @@
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT plugin produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/jvm/target/scala-2.11/resolution-cache/reports/bar-bar$sources-plugin.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT pom produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/jvm/target/scala-2.11/resolution-cache/reports/bar-bar$sources-pom.xml
 [debug] 	report for bar#bar$sources;0.1.0-SNAPSHOT scala-tool produced in /home/naseem/Documents/SFreely NEW/Cross-Platforms-ScalaNative-JVM/bar/jvm/target/scala-2.11/resolution-cache/reports/bar-bar$sources-scala-tool.xml
-[debug] 	resolve done (68ms resolve - 7ms download)
+[debug] 	resolve done (819ms resolve - 159ms download)

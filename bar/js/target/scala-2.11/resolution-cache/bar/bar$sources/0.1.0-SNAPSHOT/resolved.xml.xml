@@ -4,7 +4,7 @@
 		module="bar$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190305110815"
+		publication="20190307164325"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
